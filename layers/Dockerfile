@@ -7,4 +7,5 @@ RUN yum install git -y \
     && yum install maven -y \
     && yum install gcc -y
 # # here I need to pull something from internet
+RUN echo "Hello World"
 CMD [ "nginx", "-g", "daemon off;" ]
